@@ -1,0 +1,45 @@
+{
+  "name": "apex-component",
+  "version": "1.0.0",
+  "description": "use",
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "webpack --config config/webpack.prod.js",
+    "buildcss": "webpack --config config/webpack.prod_css.js",
+    "test": "npx webpack-dev-server --config  config/webpack.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "homepage": "https://bpuns.cn",
+  "author": "bpuns_lin",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-istanbul": "^5.2.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2",
+    "webpack-merge": "^4.2.2",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {}
+}
